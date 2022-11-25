@@ -21,6 +21,12 @@
       #11101d 91.61%
     );
   }
+  .text-gradient {
+    background: linear-gradient(to right, #945DD6, #13ADC7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
   .bg-blue-gradient {
     background: linear-gradient(
       270deg,

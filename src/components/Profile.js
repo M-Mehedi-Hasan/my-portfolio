@@ -9,10 +9,10 @@ const Profile = () => {
         <h1 className='xs:text-[25px] sm:text-4xl font-bold leading-normal'>Hello, 
         <br /> 
         I am 
-        <span className='text-emerald-500'> Mehedi Hasan</span>, 
+        <span className='text-gradient'> Mehedi Hasan</span>, 
         <br /> 
         Front End Developer</h1>
-        <p className='text-gray-300 leading-loose mt-4 tracking-wide font-medium pb-5'>I love creating web applications. I prefer to use <span className='text-emerald-500'>React JS </span> and <span className='text-emerald-500'>Tailwind CSS</span> for front-end projects. I like to take on new challenges that help me improve my skills.</p>
+        <p className='text-gray-300 leading-loose mt-4 tracking-wide font-medium pb-5'>I love creating web applications. I prefer to use <span className='text-gradient font-semibold'>React JS </span> and <span className='text-gradient font-semibold'>Tailwind CSS</span> for front-end projects. I like to take on new challenges that help me improve my skills.</p>
         <a href='#projects'><Button text="Let's begin" /></a>
       </article>
       <img src={Me} alt='myphoto' className='rounded-md mx-auto' />
